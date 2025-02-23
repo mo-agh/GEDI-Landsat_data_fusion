@@ -1,4 +1,4 @@
 # GEDI-Landsat Data Fusion
 
-This repository contains the code for data fusion of Landsat-8 imagery and GEDI LiDAR data in order to produce a wall-to-wall map of biomass in the eastern Maryland shore.
-Landsat imagery was downloaded from Google Earth Engine using the provided shapefile and javascript code.
+This project quantified biomass loss due to saltwater intrusion in Wicomico, Somerset, and Dorchester counties, Maryland. The GEDI L4A biomass product served as the dependent variable in a random forest regression model, with Landsat-8 bands as independent variables. Landsat-8 data for the study area were collected using the Google Earth Engine platform. The trained model produced wall-to-wall biomass maps for 2013 and 2021.
+For the visual outputs of this project visit [my website](https://mo-agh.github.io/projects/).
